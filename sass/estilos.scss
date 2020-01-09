@@ -1,15 +1,24 @@
-h1{
-    color: yellowgreen;
+$ColorUno: #f9ed69;
+$ColorDos: #f08a5d;
+$ColorTes: #b83b5e;
+$ColorCuatro: #6a2c70;
+
+section{
+    background: $ColorUno;
+
+    h1{
+        background: $ColorDos;
+    }
+    h2{
+        background: $ColorTes;
+    }
+    p{
+        background: $ColorCuatro;
+    }
 }
 
 footer{
-    background: #444;
-
-    h4{
-        color: red;
-        
-        a{
-            color: blue;
-        }
+    p{
+        background: $ColorUno;
     }
 }
