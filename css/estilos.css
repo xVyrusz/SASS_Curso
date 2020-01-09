@@ -1,18 +1,16 @@
-section {
-  background: #f9ed69;
-}
-section h1 {
+header {
+  height: 200px;
   background: #f08a5d;
 }
-section h2 {
+
+section {
+  height: 200px;
   background: #b83b5e;
 }
-section p {
-  background: #6a2c70;
-}
 
-footer p {
-  background: #f9ed69;
+footer {
+  height: 200px;
+  background: #6a2c70;
 }
 
 /*# sourceMappingURL=estilos.css.map */

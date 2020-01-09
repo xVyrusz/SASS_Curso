@@ -1,24 +1,12 @@
-$ColorUno: #f9ed69;
-$ColorDos: #f08a5d;
-$ColorTes: #b83b5e;
-$ColorCuatro: #6a2c70;
+@import 'variables';
+@import 'header';
 
 section{
-    background: $ColorUno;
-
-    h1{
-        background: $ColorDos;
-    }
-    h2{
-        background: $ColorTes;
-    }
-    p{
-        background: $ColorCuatro;
-    }
+    height: 200px;
+    background: $ColorTes;
 }
 
 footer{
-    p{
-        background: $ColorUno;
-    }
+    height: 200px;
+    background: $ColorCuatro;
 }
